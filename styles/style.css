@@ -223,7 +223,7 @@ h3 {
 }
 
 .related-search-group {
-    margin-bottom: 42px;
+    margin-bottom: 44px;
     padding-top: 6px;
 }
 
@@ -250,7 +250,7 @@ h3 {
     display: grid;
     grid-template-columns: 1fr 300px 1fr;
     align-items: center;
-    margin-bottom: 42px;
+    margin-bottom: 40px;
 }
 
 .deco-horz-line {
@@ -280,9 +280,62 @@ h3 {
 .logo-long {
     display: flex;
     justify-content: center;
+    margin-bottom: 40px;
 }
 
 .logo-long img {
     height: 30px;
     width: auto;
+}
+
+footer {
+    background-color: #f9f9f9;
+    color: #5F6368;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 22px 0 16px 0;
+    font-size: 14px;
+}
+
+footer a {
+    color: inherit;
+}
+
+.client-location {
+    border-bottom: 1px solid #e4e4e4;
+    padding: 12px 180px;
+}
+
+.client-city-group {
+    border-left: 1px solid #e4e4e4;
+    margin-left: 10px;
+    padding: 5px 16px;
+}
+
+.precise-location-status {
+    background-color: #9e9e9e;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-bottom: 1px;
+    border-radius: 50%;
+}
+
+.client-city {
+    color: #444;
+}
+
+.footer-link-group {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 26px;
+    justify-content: start;
+    padding: 12px 180px;
+}
+
+.footer-link-group div {
+    display: flex;
+}
+
+.footer-link-group div a:not(:last-child) {
+    margin-right: 24px;
 }
