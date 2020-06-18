@@ -1,0 +1,1 @@
+# Replication of a Google.com search results page's layout and style
