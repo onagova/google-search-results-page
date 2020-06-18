@@ -5,10 +5,42 @@
         <title>build this webpage - Google Search</title>
         <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/0/09/IOS_Google_icon.png">
         <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined">
         <link rel="stylesheet" href="styles/style.css">
     </head>
     <body>
-
+        <header>
+            <nav>
+                <div class="search-nav">
+                    <a href="#">
+                        <img class="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"
+                            alt="Google logo"/>
+                    </a>
+                    <form class="search-bar-group">
+                        <input type="search" placeholder="build this webpage"/>
+                        <button class="material-icons search-clear">clear</button>
+                        <button class="material-icons search-submit" type="submit">search</button>
+                    </form>
+                    <div class="personalise-options">
+                        <a class="material-icons apps-icon" href="#">apps</a>
+                        <button class="sign-in-button">Sing in</button>
+                    </div>
+                </div>
+                <div class="results-settings-nav">
+                    <div class="results-nav">
+                        <a class="highlighted" href="#"><span class="material-icons">search</span>All</a>
+                        <a href="#"><span class="material-icons-outlined">location_on</span>Maps</a>
+                        <a href="#"><span class="material-icons">slideshow</span>Videos</a>
+                        <a href="#"><span class="material-icons-outlined">receipt</span>News</a>
+                        <a href="#"><span class="material-icons-outlined">insert_photo</span>Images</a>
+                        <a href="#"><span class="material-icons">more_vert</span>More</a>
+                    </div>
+                    <div class="settings-nav">
+                        <a href="#">Settings</a>
+                        <button class="tools-button">Tools</button>
+                    </div>
+                </div>
+            </nav>
+        </header>
     </body>
 </html>
